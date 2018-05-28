@@ -2,12 +2,12 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
-import image_0 from '../images/pic01.jpg';
-import image_1 from '../images/pic02.jpg';
-import image_2 from '../images/pic03.jpg';
-import image_3 from '../images/pic04.jpg';
-import image_4 from '../images/pic05.jpg';
-import image_5 from '../images/pic06.jpg';
+import kubernetes from '../images/kubernetes.png';
+import microservices from '../images/microservices.png';
+import fnproject from '../images/fnproject.png';
+import cloudops from '../images/cloudops.png';
+import terraform from '../images/terraform.png';
+
 
 export default function Second(props) {
 
@@ -20,7 +20,7 @@ export default function Second(props) {
           feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
         </div>
       </header>
-      <div className="content dark style2">
+      <div className="content  style2">
         <div className="container">
           <div className="row">
             <div className="4u 12u(narrow)">
@@ -33,11 +33,74 @@ export default function Second(props) {
               </section>
             </div>
             <div className="8u 12u(narrow)">
+
               <div className="row">
-                <div className="6u"><a href="#" className="image fit"><img src={image_3} alt="" /></a></div>
-                <div className="6u"><a href="#" className="image fit"><img src={image_3} alt="" /></a></div>
-                <div className="6u"><a href="#" className="image fit"><img src={image_4} alt="" /></a></div>
-                <div className="6u"><a href="#" className="image fit"><img src={image_5} alt="" /></a></div>
+                <div className="6u">
+                  <div className="topic">
+                    <a href="#" className="title">
+                      <span className="topic__imageContainer">
+                        <span className="topic__imageContainer__item">
+                          <img src={kubernetes} alt="" />
+                        </span>
+                      </span>
+                      <span className="topic__title dark">Kubernetes</span>  
+                    </a>
+                  </div>
+                 </div>
+                
+                   
+                <div className="6u">
+                  <div className="topic">
+                    <a href="#" className="title">
+                      <span className="topic__imageContainer">
+                        <span className="topic__imageContainer__item">
+                          <img src={microservices} alt="" />
+                        </span>
+                      </span>
+                      <span className="topic__title dark">Microservices</span>  
+                    </a>
+                  </div>
+                 </div>
+                
+                <div className="6u">
+                  <div className="topic">
+                    <a href="#" className="title">
+                      <span className="topic__imageContainer">
+                        <span className="topic__imageContainer__item">
+                          <img src={terraform} alt="" />
+                        </span>
+                      </span>
+                      <span className="topic__title dark">Terraform</span>  
+                    </a>
+                  </div>
+                </div>
+
+                <div className="6u">
+                  <div className="topic">
+                    <a href="#" className="title">
+                      <span className="topic__imageContainer">
+                        <span className="topic__imageContainer__item">
+                          <img src={fnproject} alt="" />
+                        </span>
+                      </span>
+                      <span className="topic__title dark">FN Project</span>  
+                    </a>
+                  </div>
+                 </div>
+
+                 <div className="6u">
+                  <div className="topic">
+                  <a href="cloudops" className="title">
+                    <span className="topic__imageContainer">
+                      <span className="topic__imageContainer__item">
+                        <img className="topic__imageContainer_image" src={cloudops} alt="" />
+                      </span>
+                    </span>
+                    <span className="topic__title dark">Cloud-Ops</span>  
+                    </a>
+                  </div>
+                 </div>
+                
               </div>
             </div>
           </div>

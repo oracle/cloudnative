@@ -6,7 +6,9 @@ export default function Fourth(props) {
 
   return (
 		<section id="fourth" className="main">
+		<hr/>
 			<header>
+			
 				<div className="container">
 					<h2>Find out more</h2>
 					<p>Haven't learned enough? See the links below to dive deepter into OCI and Cloud Native development.</p>
