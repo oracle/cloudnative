@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 export default function Fourth(props) {
 
   return (
-		<section id="fourth" className="main">
+		<section id="fourth" className="main white">
 		<hr/>
 			<header>
 			
